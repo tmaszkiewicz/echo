@@ -46,7 +46,7 @@ deploy:
           command: 
             #git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
 
-            git push https://heroku:mahussapp-main-glezcyhsttwd2xf@git.heroku.com/mahussapp.git master
+            git push  https://git.heroku.com/mahussapp1.git master
 workflows:
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
